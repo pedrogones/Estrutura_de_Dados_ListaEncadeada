@@ -26,7 +26,7 @@ public class Main {
 		System.out.println("Qual o tamanho da lista? " + l.tamanho());
 		
 		//modificando um elemento da lista
-		l.modificaElemento(25, 2);
+		l.modificaElemento(189, 3);
 		System.out.print("Lista modificada: ");
 		for(int i = 1 ; i <= l.tamanho() ; i++) {	
 			System.out.print(l.elemento(i) + ", ");
